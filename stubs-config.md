@@ -17,3 +17,18 @@
 4. Inside each file, place the key functions
 
 5. Update the settings.json file on [Visual Studio Code](https://code.visualstudio.com/)
+   
+```
+{
+    "php.suggest.basic": false,
+
+    "intelephense.stubs": ["wordpress"],
+
+    "intelephense.environment.includePaths": [
+        "~/projets/.config/intelephense/stubs"
+    ],
+
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.diagnostics.undefinedConstants": false,
+    "intelephense.environment.phpVersion": "8.2"
+}
